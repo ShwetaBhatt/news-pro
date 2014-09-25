@@ -1,0 +1,495 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Sep 16, 2014, 9:28:48 AM
+    Author     : ideabox
+*/
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f6f5f2;
+    color:#666;
+    font-family:'Raleway', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    margin: 0;
+    display: block;
+}
+
+hr {
+    background-color:#000;
+}
+
+.clearfix:after, .clearfix:before {
+    content: "";
+    display:table;
+}
+
+.clearfix:after {
+    clear:both;
+}
+
+
+.site-container {
+    margin: 60px auto;
+    padding: 0;
+    border: 1px solid #e3e3e3;
+    background-color: #fff;
+
+}
+/* boostrap navbar starts*/
+.navbar-default {
+    background-color: #fff;
+    border: 1px solid #e3e3e3;
+}
+
+.navbar-default .navbar-brand {
+    color: #777;
+    border-right: 1px solid #e3e3e3;
+}
+.navbar {
+    border-radius: 0; 
+}
+
+.navbar {
+    margin-bottom: 0;
+}
+
+
+.nav>li>a {
+    
+     border-right:1px solid #e3e3e3;
+}
+.navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus {
+    color: #fff;
+    background-color: #000;
+}
+.navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>li>a:focus {
+    color: #fff;
+    background-color: #111;
+}
+
+
+.navbar-header>.active>a {
+    color: #fff;
+    background-color: #000;
+    border-right:1px solid #e3e3e3;
+    
+}
+
+.active {
+    background-color: #000;
+    color: #fff;
+}
+
+/* bootstrap navbar end*/
+
+
+.navigation {
+    padding: 20px 0;
+    border-bottom: 1px solid #e3e3e3;
+
+}
+#menu {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+#menu li {
+    display: inline-block;
+    margin: 0;
+
+}
+
+#menu li a {
+    text-decoration: none;
+    color: #000;
+    background-color: #fff;
+    padding: 21px 7px;
+    border-right:1px solid #e3e3e3;
+    text-align: center;
+}
+
+#menu li a:hover {
+    text-decoration: none;
+    color: #fff;
+    background-color: #000;
+
+}
+
+#menu li a:active, #menu .current {
+    background-color: #000;
+    color: #fff;
+}
+
+
+
+
+.title-area {
+    padding:40px 20px;
+    border-bottom: 3px solid #000;
+}
+.site-title {
+    font-weight: 700;
+    font-size: 42px;
+    text-transform: uppercase;
+    margin: 0;
+
+}
+
+.site-title a {
+    text-decoration: none;
+    color: #000;
+}
+
+.site-description {
+    color: #999;
+    font-size: 16px;
+    margin: 10px 0 0;
+    text-transform: uppercase;
+
+}
+
+.imga {
+    width:100%;
+}
+
+.site-inner {
+
+}
+
+.attachement {
+    position: relative;
+}
+
+.attachement-top {
+    position: absolute;
+    z-index: 9;
+    top:25px;
+    left: 40px;
+}
+
+.attachement-top a {
+    text-decoration: none;
+    color: #fff;
+}
+
+#nav {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+
+}
+
+#nav li {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+
+}
+
+#nav li a {
+    text-decoration: none;
+    color: #fff;
+    background-color: #000;
+    padding: 5px 2px;
+    text-align: center;
+}
+
+#nav li a:hover {
+    text-decoration: none;
+    color: #000;
+    background-color: #fff;
+
+}
+
+#nav li a:active, #nav .current {
+    background-color: #ff0000;
+    color: #fff;
+}
+
+.attachement-nav {
+    position: absolute;
+    z-index: 9;
+    bottom: 20px;
+    right: 10px;
+}
+
+.main-content {
+    border-right: 1px solid #e3e3e3;
+    padding: 0;
+    float: left;
+
+}
+
+.side-content {
+    float: right;
+}
+
+.section-title {
+    border-top: 3px solid #000;
+    border-bottom: 1px solid #e3e3e3;
+    text-align: center;
+    padding: 16px 0;
+    margin-bottom: 24px;
+    text-transform: uppercase;
+}
+
+
+.section-1 {
+    background-color: #f3f3f3;
+    padding:20px;
+    border-bottom: 1px solid #e3e3e3;
+}
+
+.section-2 {
+    border-bottom: 1px solid #e3e3e3;
+    margin-bottom: 20px;
+}
+
+.middle-content-1 {
+    padding:20px;
+    border-right: 1px solid #e3e3e3;
+
+}
+.paragraph {
+    border-bottom: 1px solid #e3e3e3;
+}
+.paragraph p {
+    margin-bottom: 20px;
+}
+
+
+.middle-content-2 {
+    padding:20px;
+}
+.middle-content-2 h4 {
+    border-bottom: 1px solid #e3e3e3;
+    padding: 10px 0;
+}
+.para {
+    margin: 20px 0;
+
+}
+.para a {
+    color:#000;    
+    font-weight: 700;
+    text-decoration: none;
+
+
+}
+
+.para a:hover {
+    text-decoration: none;
+    color: #ff0000;
+}
+.section-3 {
+    padding: 20px;
+}
+.section {
+    border-bottom: 1px solid #e3e3e3;
+    padding-bottom: 30px;
+}
+
+.section img {
+    float: left;
+    margin-right: 20px;
+}
+.side-content {
+    padding: 0;
+}
+.search-area {
+    width: 100%;
+    margin-top: 10px;
+    padding: 20px;
+    border-bottom: 1px solid #e3e3e3;
+}
+
+.search{
+    overflow: hidden;
+}
+
+input[type="search"]{
+    background-color: #fff;
+    border: 1px solid #ececec;
+    border-radius: 3px;
+    box-shadow: inset 1px 1px 2px rgba(0, 0, 0, 0.06);
+    color: #999;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 16px;
+    width: 100%;
+}
+.border {
+    border-bottom: 1px solid #e3e3e3;
+}
+
+.side-post {
+    padding: 20px;
+}
+.side-post p{
+    border-bottom: 1px solid #e3e3e3;
+    padding-bottom: 18px;
+}
+
+.side-post ul {
+    padding: 0;
+}
+.side-post ul li {
+
+    padding: 0;
+    list-style-type: none;
+    border-bottom: 1px dotted #e3e3e3;
+    margin: 20px 0;
+
+}
+.side-post li a {
+    text-align: left;
+    text-decoration: none;
+}
+
+.side-post ul li:before {
+    content: "\f105";
+    font-family: "FontAwesome";
+    margin-right: 10px;
+}
+
+.side-section-3,.side-section-4 {
+    padding: 20px;
+}
+
+.advertise {
+    margin-bottom: 20px;
+}
+.box {
+    padding: 0 30px;
+}
+
+.site-footer {
+    clear: both;
+    background-color: #000;
+    padding: 20px;
+    margin-top: 20px;
+    color: #fff;
+}
+.site-footer ul {
+    padding: 0;
+}
+
+.site-footer ul li {
+    list-style-type: none;
+    padding: 8px 0;
+}
+.site-footer a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.site-footer a:hover {
+    color: #ff0000;
+}
+.bottom-footer {
+    text-align: center;
+    color: #999;
+    font-size: 13px;
+    padding-top: 30px;
+}
+.bottom-footer a {
+    color: #999;
+}
+
+/*
+Media Queries
+---------------------------------------------------------------------------------------------------- */
+
+@media (min-width:768px) {
+    .row{
+        margin-left:0;
+        margin-right:0;
+    }
+}
+
+@media (max-width:1200px) {
+    .box {
+        padding: 0;
+    }
+    .site-footer h4 {
+        font-size: 16px;
+    }
+}
+
+@media (max-width :991px) {
+    .site-title {
+        text-align: center;
+    }
+    .site-description {
+        text-align: center;
+    }
+    .site-img {
+        margin-top: 20px;
+    }
+    .navigation {
+        text-align: center;
+    }
+    #menu li a {
+        padding: 20px 5px;
+        border-right: 0px;
+        font-weight: 700;
+        font-size: 14px;
+    }
+
+    .attachement-nav {
+        position: absolute;
+        top :4px;
+        left:0;
+    }
+    .attachement-top {
+        position: absolute;
+        bottom: 0px;
+        top: auto;
+        left: 175px;
+
+    }
+    .side-post img {
+        width: auto;
+    }
+    .site-footer {
+        clear: both;
+    }
+
+}
+@media(max-width:767px) {
+    .box,.site-footer,.side-post,.section-2 {
+        text-align: center;
+    }
+    
+}
+
+@media (max-width:681px) {
+    #menu li a {
+        padding: 20px 4px;
+    }
+}
+
+@media (max-width:669px) {
+    #menu li a {
+        padding: 20px 3px;
+    }
+
+}
+
+@media (max-width:538px) {
+    .attachement-top {
+        position: absolute;
+        bottom: 0px;
+        top: auto;
+        left: 90px;
+
+    }
+}
